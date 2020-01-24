@@ -1,0 +1,13 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int W;
+    cin>>W;
+    if(W%2==0&&W!=0&&W!=2)
+        cout<<"YES";
+    else
+        cout<<"NO";
+    return 0;
+}
